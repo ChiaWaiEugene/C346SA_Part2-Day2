@@ -79,7 +79,7 @@ public class SecondActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.ClearRecords) {
-            lvList.clear();
+            expList.clear();
             return true;
         }
 
